@@ -29,8 +29,10 @@
     "colorSchema": "both",
     "highlighter": "all",
     "defaults": {
+      "layout": "cover",
       "fonts": {
-        "sans": "Nunito Sans",
+        "sans": "Montserrat",
+        "serif": "Robot Slab",
         "mono": "Fira Code"
       },
       "hightlighter": "prism"
