@@ -4,7 +4,7 @@
   "postCreateCommand": "yarn install",
   "customizations": {
     "vscode": {
-      "extensions": ["antfu.slidev", "yzhang.markdown-all-in-one"]
+      "extensions": ["antfu.slidev", "yzhang.markdown-all-in-one", "Vue.volar"]
     }
   }
 }
