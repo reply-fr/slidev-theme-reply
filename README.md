@@ -2,7 +2,7 @@
 
 This is the theme used for the presentation made by [Reply](https://www.reply.com/).
 
-## Usage
+## Install
 
 To use the theme, you have to initialize a new Slidev project with the following command:
 
@@ -26,4 +26,24 @@ You can now edit the `slides.md` file to create your presentation to set the the
 theme: ./theme
 ---
 ...
+```
+
+## Usage
+
+### Footer
+
+This theme will by default display a green footer to your presentation. You can customize it by adding the following to your frontmatter:
+
+```md
+---
+footer: "Text that will appear in the footer"
+---
+```
+
+You can also hide it:
+
+```md
+---
+hide_footer: true
+---
 ```
