@@ -1,50 +1,29 @@
 # slidev-theme-reply
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-reply?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-reply)
+This is the theme used for the presentation made by [Reply](https://www.reply.com/).
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+## Usage
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
+To use the theme, you have to initialize a new Slidev project with the following command:
 
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
+```bash
+yarn create slidev
+```
 
-<!--
-  Put some screenshots here to demonstrate your theme
+You will be asked to pick a name for your project, and then the package manager you want to use (`yarn` is a great start).
 
-  Live demo: [...]
--->
+You can now install the theme with the following command:
 
-## Install
+```bash
+git submodule add git@github.com:reply-fr/slidev-theme-reply.git theme
+```
 
-Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
+You can now edit the `slides.md` file to create your presentation to set the theme in the `slides.md` file:
 
-<pre><code>---
-theme: <b>reply</b>
----</code></pre>
-
-Learn more about [how to use a theme](https://sli.dev/themes/use).
-
-## Layouts
-
-This theme provides the following layouts:
-
-> TODO:
-
-## Components
-
-This theme provides the following components:
-
-> TODO:
-
-## Contributing
-
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+```md
+---
+...
+theme: ./theme
+---
+...
+```
