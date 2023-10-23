@@ -1,0 +1,10 @@
+{
+  "name": "Slidev Theme Reply",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "postCreateCommand": "yarn install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["antfu.slidev", "yzhang.markdown-all-in-one"]
+    }
+  }
+}
